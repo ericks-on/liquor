@@ -5,7 +5,7 @@ export const products = [
         image: '/products/tanqueray-flor-de-sevilla-distilled-gin.webp'
     }, {
         name: 'Johnnie Walker Black Label 1ltr',
-        price: 2600,
+        price: 3600,
         image: '/products/johnnie-walker-black-lable.webp'
     }, {
         name: 'Jose Cuervo Silver Tequila 750ml',
