@@ -11,9 +11,8 @@ export default function Header() {
                 src='/deals.jpeg'
                 width={80}
                 height={80} />
-            <div className="w-28 h-16 bg-red-600 rounded flex gap-4 items-center justify-center md:hidden absolute right-0 mr-8 cursor-pointer">
+            <div className="bg-red-600 rounded flex gap-4 items-center justify-center md:hidden absolute right-0 mr-4 cursor-pointer">
                 <FaWhatsapp className="fill-green-700 w-10 h-10"/>
-                <span>Order</span>
             </div>
         </div>
     )
