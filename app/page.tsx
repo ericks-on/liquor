@@ -14,10 +14,10 @@ export default function Home() {
         <WaQr />
         <p className="text-center ">To order Whatsapp 0700120294 or scan the QR code</p>
       </div>
-      <div className="flex flex-col md:w-4/5 w-full h-full">
+      <div className="flex flex-col md:w-4/5 w-full h-full md:overflow-auto">
         <p className="text-center md:hidden">To order Whatsapp 0700120294 or click red button for QR code</p>
         <div
-          className="w-full  h-full flex flex-col md:flex-row items-center justify-center flex-wrap gap-4 md:overflow-auto"
+          className="w-full md:h-full flex flex-col md:flex-row items-center justify-center md:flex-wrap gap-4 "
         >
           {
             products.map((prod) => {
