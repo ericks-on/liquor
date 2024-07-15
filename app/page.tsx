@@ -17,7 +17,7 @@ export default function Home() {
       <div className="flex flex-col md:w-4/5 w-full h-full">
         <p className="text-center md:hidden">To order Whatsapp 0700120294 or click red button for QR code</p>
         <div
-          className="w-full  h-full flex flex-col md:flex-row items-center justify-center flex-wrap gap-4 overflow-auto"
+          className="w-full  h-full flex flex-col md:flex-row items-center justify-center flex-wrap gap-4 md:overflow-auto"
         >
           {
             products.map((prod) => {
