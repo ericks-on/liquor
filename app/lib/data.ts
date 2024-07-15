@@ -8,7 +8,7 @@ export const products = [
         price: 3600,
         image: '/products/johnnie-walker-black-lable.webp'
     }, {
-        name: 'Jose Cuervo Silver Tequila 750ml',
+        name: 'Jose Cuervo Silver 750ml',
         price: 2600,
         image: '/products/jose-cuervo-silver-tequila-300x300.png'
     }, {
