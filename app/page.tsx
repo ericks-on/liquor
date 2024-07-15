@@ -19,14 +19,15 @@ export default function Home() {
         <div
           className="w-full  h-full flex flex-col md:flex-row items-center justify-center flex-wrap gap-4 overflow-auto"
         >
-          <ProductCard product={products[0]} />
-          <ProductCard product={products[0]} />
-          <ProductCard product={products[0]} />
-          <ProductCard product={products[0]} />
-          <ProductCard product={products[0]} />
-          <ProductCard product={products[0]} />
-          <ProductCard product={products[0]} />
-          <ProductCard product={products[0]} />
+          {
+            products.map((prod) => {
+              return (
+                <ProductCard
+                  key={prod.name}
+                  product={prod} />
+              )
+            })
+          }
         </div>
       </div>
       

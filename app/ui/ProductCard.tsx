@@ -14,7 +14,7 @@ export default function ProductCard(
 ) {
     return (
         <div
-            className="w-64 flex flex-col items-center justify-center rounded"
+            className="w-64 h-80 flex flex-col items-center justify-center rounded"
         >
             <Image
                 className="w-full h-3/4"
