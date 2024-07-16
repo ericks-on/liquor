@@ -29,7 +29,15 @@ export default function Home() {
       </div>
       <div className="flex flex-col md:w-4/5 w-full h-full md:overflow-auto">
         <p className="text-center md:hidden">
-          To order Whatsapp <a href="https://wa.me/qr/5TJMIFC46AWBA1">0700120294</a> or click red button for QR code
+          To order Whatsapp
+          <a
+            className='font-bold bb-2 text-green-400'
+            href="https://wa.me/qr/5TJMIFC46AWBA1"
+            target='_blank'
+          >
+            0700120294
+          </a>
+          or click red button for QR code
         </p>
         <div
           className="w-full md:h-full flex flex-col md:flex-row items-center justify-center md:flex-wrap gap-4 "
