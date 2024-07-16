@@ -32,7 +32,7 @@ export default function Home() {
           To order Whatsapp
           <a
             className='font-bold bb-2 text-green-400'
-            href="https://wa.me/qr/5TJMIFC46AWBA1"
+            href="https://wa.me/+254700120294"
             target='_blank'
           >
             0700120294
