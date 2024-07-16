@@ -28,7 +28,9 @@ export default function Home() {
         <p className="text-center hidden md:block">To order Whatsapp 0700120294 or scan the QR code</p>
       </div>
       <div className="flex flex-col md:w-4/5 w-full h-full md:overflow-auto">
-        <p className="text-center md:hidden">To order Whatsapp 0700120294 or click red button for QR code</p>
+        <p className="text-center md:hidden">
+          To order Whatsapp <a href="https://wa.me/qr/5TJMIFC46AWBA1">0700120294</a> or click red button for QR code
+        </p>
         <div
           className="w-full md:h-full flex flex-col md:flex-row items-center justify-center md:flex-wrap gap-4 "
         >
