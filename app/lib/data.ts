@@ -1,6 +1,6 @@
 export const products = [
     {
-        name: 'Tanqueray 750ml',
+        name: 'Tanqueray 700ml',
         price: 2600,
         image: '/products/tanqueray-flor-de-sevilla-distilled-gin.webp'
     }, {
@@ -15,14 +15,6 @@ export const products = [
         name: 'Jose Cuervo Gold Tequila 750ml',
         price: 2600,
         image: '/products/jose-cuervo-gold-tequila.png'
-    }, {
-        name: 'Jameson 750ml',
-        price: 2700,
-        image: '/products/jameson.webp'
-    }, {
-        name: 'Tusker Malt 500ml(4 available)',
-        price: 2700,
-        image: '/products/tusker_malt.webp'
     }
     
     
