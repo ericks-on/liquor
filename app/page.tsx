@@ -27,7 +27,9 @@ export default function Home() {
         <WaQr />
         <p className="text-center hidden md:block">To order Whatsapp 0700120294 or scan the QR code</p>
       </div>
+      {/*  for products */}
       <div className="flex flex-col md:w-4/5 w-full h-full md:overflow-auto">
+        {/* instructions to order for mobile */}
         <p className="text-center md:hidden">
           To order Whatsapp
           <a
@@ -39,16 +41,30 @@ export default function Home() {
           </a>
           or click red button for QR code
         </p>
+        {/* events top banner image */}
         <div
-          className="w-full md:h-full flex flex-col md:flex-row items-center justify-center md:flex-wrap gap-4 "
+          className="w-full h-1/2 flex items-center justify-center"
+        >
+          <Image
+            className="w-auto h-full  rounded-lg shadow-lg"
+            src="/events.jpg"
+            alt="banner image"
+            width={500}
+            height={500}
+          />
+        </div>
+        {/* products container with sealed products */}
+        <div
+          className="w-full md:h-full flex flex-col md:flex-row items-center justify-center md:flex-wrap gap-4 p-4"
         >
           {
             products.map((prod) => {
-              return (
-                <ProductCard
-                  key={prod.name}
-                  product={prod} />
-              )
+                return (
+                  <ProductCard
+                    key={prod.name}
+                    product={prod} />
+                )
+              
             })
           }
         </div>
