@@ -12,7 +12,7 @@ export const products = [
     }, {
         name: 'Malfy Gin 1L',
         price: 3500,
-        image: '/products/malfy-orange.webp',
+        image: '/products/malfy-orange-not.jpg',
         status: 'not-sealed'
     },  {
         name: 'Johnnie Walker Gold Label Reserve 750ml',
