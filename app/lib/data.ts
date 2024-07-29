@@ -2,20 +2,21 @@ export const products = [
     {
         name: 'Tanqueray 700ml',
         price: 2600,
-        image: '/products/tanqueray-flor-de-sevilla-distilled-gin.webp'
-    }, {
-        name: 'Johnnie Walker Black Label 1ltr',
-        price: 3600,
-        image: '/products/johnnie-walker-black-lable.webp'
-    }, {
-        name: 'Jose Cuervo Silver 750ml',
-        price: 2600,
-        image: '/products/jose-cuervo-silver-tequila-300x300.png'
-    }, {
-        name: 'Jose Cuervo Gold Tequila 750ml',
-        price: 2600,
-        image: '/products/jose-cuervo-gold-tequila.png'
+        image: '/products/tanqueray.webp'
+    },
+    {
+        name: 'Glenfiddich 12 Years 1L',
+        price: 5200,
+        image: '/products/glenfiddich-12.webp'
     }
-    
+    // {
+    //     name: 'Malfy Gin 1L',
+    //     price: 5200,
+    //     image: '/products/malfy-orange.webp'
+    // }, {
+    //     name: 'Johnnie Walker Gold Label Reserve 750ml',
+    //     price: 4700,
+    //     image: '/products/johnnie-gold.webp'
+    // }
     
 ]
