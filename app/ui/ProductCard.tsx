@@ -6,7 +6,7 @@ interface productProps {
         name: string,
         image: string,
         price: number,
-        status: 'sealed' | 'not-sealed'
+        status: string
     }
 }
 
