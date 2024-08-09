@@ -1,5 +1,10 @@
 export const products = [
     {
+        name: 'Trumpeter red wine',
+        price: 1800,
+        image: '/products/trumpeter.webp',
+        status: 'sealed'
+    },{
         name: 'Tanqueray 700ml',
         price: 2600,
         image: '/products/tanqueray.webp',
