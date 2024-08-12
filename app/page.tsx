@@ -59,11 +59,12 @@ export default function Home() {
         >
           {
             products.map((prod) => {
-                return (
-                  <ProductCard
-                    key={prod.name}
-                    product={prod} />
-                )
+              if (!prod) return null;
+              return (
+                <ProductCard
+                  key={prod.name}
+                  product={prod} />
+              )
               
             })
           }
