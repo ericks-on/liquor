@@ -26,13 +26,14 @@ export default function ProductCard(
         >
             {/* images for the product */}
             <div
-                className="w-full h-3/4 flex items-center justify-center">
+                className="w-full h-3/4 flex items-center justify-center relative"
+            >
                 {
                     product.image.map((image, index) => {
                         return (
                             <Image
                                 className={clsx(
-                                    "w-full h-full relative",
+                                    "w-full h-full",
                                     { "hidden": index !== currentImage }
                                 )}
                                 alt="product image"
