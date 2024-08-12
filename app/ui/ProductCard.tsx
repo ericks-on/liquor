@@ -55,7 +55,10 @@ export default function ProductCard(
                                 <button
                                     className={clsx(
                                         "w-4 h-4 rounded-full",
-                                        { "bg-gray-400": index === 0, "bg-gray-200": index !== 0 }
+                                        {
+                                            "bg-gray-400": index === currentImage,
+                                            "bg-gray-200 h-2 w-2": index !== currentImage
+                                        }
                                     )}
                                     key={index}
                                     onClick={() => { setCurrentImage(index) }
