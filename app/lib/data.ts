@@ -17,7 +17,7 @@ export const products = [
     },, {
         name: 'Glenmorangie 10 Years',
         price: 4800,
-        image: ['products/glenmorangie-original.webp','/products/glenmorangie-not.jpg'],
+        image: ['/products/glenmorangie-original.webp','/products/glenmorangie-not.jpg'],
         status: 'not-sealed'
     }, {
         name: 'Chivas Regal 18yrs 1L',
@@ -27,7 +27,7 @@ export const products = [
     }, {
         name: 'The Macallan Quest 1L',
         price: 4700,
-        image: ['products/macallan-quest.webp', '/products/macallan-not.jpg'],
+        image: ['/products/macallan-quest.webp', '/products/macallan-not.jpg'],
         status: 'not-sealed'
     }
     

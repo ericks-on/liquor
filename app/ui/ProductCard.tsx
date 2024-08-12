@@ -16,10 +16,14 @@ interface productProps {
 }
 
 
+
+
 export default function ProductCard(
     {product}: productProps
 ) {
     const [currentImage, setCurrentImage] = useState(0)
+
+    
     return (
         <div
             className="w-64 h-80 flex flex-col items-center justify-center rounded-lg shadow-lg p-4"
@@ -50,20 +54,22 @@ export default function ProductCard(
                 <div
                     className="absolute bottom-2 flex gap-2">
                     {
+                        (product.image.length > 1) &&
                         product.image.map((_, index) => {
                             return (
                                 <button
                                     className={clsx(
-                                        "w-4 h-4 rounded-full",
+                                        "w-4 h-4 rounded-full flex items-center justify-center text-white",
                                         {
-                                            "bg-gray-400": index === currentImage,
-                                            "bg-gray-200 h-2 w-2": index !== currentImage
+                                            "bg-gray-800": index === currentImage,
+                                            "bg-gray-400 h-2 w-2": index !== currentImage
                                         }
                                     )}
                                     key={index}
-                                    onClick={() => { setCurrentImage(index) }
+                                    onClick={
+                                        () => { setCurrentImage(index) }
                                     }
-                                />
+                                >{index + 1}</button>
                             )
                         })
                     }
