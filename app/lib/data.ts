@@ -1,5 +1,10 @@
 export const products = [
     {
+        name: 'Glenfiddich 12 yrs',
+        price: 5800,
+        image: ['/products/glenfiddich-12.webp'],
+        status: 'sealed'
+    }, {
         name: 'Trumpeter red wine',
         price: 1800,
         image: ['/products/trumpeter.webp'],
