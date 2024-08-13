@@ -80,9 +80,9 @@ export default function ProductCard(
             {
                 product.status === 'not-sealed' && (
                     <div
-                        className="bg-red-500 text-white rounded-full p-1"
+                        className="bg-blue-400 text-white rounded-full p-1"
                     >
-                        Not Sealed
+                        Brocken seal
                     </div>
                 )
             }
