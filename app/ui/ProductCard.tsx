@@ -82,7 +82,7 @@ export default function ProductCard(
                     <div
                         className="bg-blue-400 text-white rounded-full p-1"
                     >
-                        Brocken seal
+                        Broken seal
                     </div>
                 )
             }
