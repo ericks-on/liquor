@@ -7,12 +7,12 @@ export const products = [
     }, {
         name: 'Tanqueray Rangpur lime 750ml',
         price: 2900,
-        image: ['/products/rangpur-lime.webp'],
+        image: ['/products/rangpur-lime.jpg'],
         status: 'sealed'
     }, {
         name: 'The Botanist 1ltr',
         price: 5000,
-        image: ['/products/The-Botanist-Gin.webp'],
+        image: ['/products/The-Botanist-Gin.jpg'],
         status: 'sealed'
     }, {
         name: 'Ketel One Vodka 750ml',
