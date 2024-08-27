@@ -26,6 +26,7 @@ export default function Home() {
       )}>
         <WaQr />
         <p className="text-center hidden md:block">To order Whatsapp 0700120294 or scan the QR code</p>
+        <h2>Cocktail and Bar management Events</h2>
       </div>
       {/*  for products */}
       <div className="flex flex-col md:w-4/5 w-full h-full md:overflow-auto">
@@ -41,6 +42,7 @@ export default function Home() {
           </a>
           or click red button for QR code
         </p>
+        <h2 className="md:hidden text-center">Cocktail and Bar management Events</h2>
         {/* events top banner image */}
         <div
           className="w-full h-1/2 flex items-center justify-center"
